@@ -1,0 +1,2 @@
+assessed
+-DCATKIN_DEVEL_PREFIX=/home/rflab/ros_ws/src/AssessedRobot/devel -DCMAKE_INSTALL_PREFIX=/home/rflab/ros_ws/src/AssessedRobot/install -G Unix Makefiles

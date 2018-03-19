@@ -207,7 +207,7 @@ def main():
     rospy.wait_for_message("/robot/sim/started", Empty)
     
     limb = 'left'
-    hover_distance = 0.15 # meters
+    hover_distance = 0.3 # meters
     # Starting Joint angles for left arm
     starting_joint_angles = {'left_w0': 0.6699952259595108,
                              'left_w1': 1.030009435085784,
@@ -235,8 +235,8 @@ def main():
     a=0
     
     for i in range(0,5):
-        block_poses_fin.append(Pose(position=Point(x=-0.2+a, y=1.0, z=0.801),orientation=overhead_orientation))
-        a+=0.08
+        block_poses_fin.append(Pose(position=Point(x=-0.2+a, y=0.9, z=0.9),orientation=overhead_orientation))
+        a+=0.1
         
     # Move to the desired starting angles
     pnp.move_to_start(starting_joint_angles)

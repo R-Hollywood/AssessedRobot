@@ -1,0 +1,8 @@
+prefix=/home/rflab/ros_ws/src/AssessedRobot/devel
+
+Name: assessed
+Description: Description of assessed
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rflab/ros_ws/src/AssessedRobot/devel/lib 
+Requires: 
